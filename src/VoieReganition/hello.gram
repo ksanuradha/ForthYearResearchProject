@@ -1,0 +1,13 @@
+
+#JSGF V1.0;
+
+grammar hello;
+
+
+public <sentence1>=(I)(am)(studying)(fine);
+
+
+ 
+
+
+

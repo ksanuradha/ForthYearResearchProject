@@ -1,0 +1,34 @@
+﻿create database 4thYearReserch;
+use 4thYearReserch;
+create table Dictionary
+(
+	Sinhala_Word varchar(200),
+	Tamil_Word varchar(200),
+	English_Word Varchar(200),
+	constraint primary key(Sinhala_Word,Tamil_Word,English_Word)
+); 
+select * from Dictionary; 
+//*********************************A letter words**********************************************************
+insert into Dictionary values('අම්මා','தாய்','Mother');
+insert into Dictionary values('ආපස්සට','பின்புறமாக','Aback');
+insert into Dictionary values('ගණක රාමුව','கணக்கிடும் மணிச்சட்டம்','Abacus');
+insert into Dictionary values('අත්හරිනවා','கைவிடு','Abandon');
+insert into Dictionary values('අඩු කරනවා','குறை','Abate');
+insert into Dictionary values('කෙටි කරනවා','சுருக்கு','Abbreviate');
+insert into Dictionary values('උදරය','வயிறு','Abdomen');
+insert into Dictionary values('පැහැර ගන්නවා','கடத்தல்','Abduct');
+insert into Dictionary values('බලෙන් පැහැරගෙන යන පුද්ගලයා','பிடித்திழுக்கும் தசை','Abductor');
+insert into Dictionary values('අප්‍රිය කරනවා','வெறு','Abhor');
+insert into Dictionary values('අසාමාන්ය','அசாதாரண','Abnormal');
+
+
+
+
+
+
+
+
+
+
+//**********************************************************************************************************
+drop database 4thYearReserch;
